@@ -20,12 +20,14 @@ AMiner于 2006 年 3 月推出，是新一代科技情报分析与挖掘平台�
 
 3. 将2中代码封装成为一个可以在命令行运行的脚本，脚本的唯一一个参数为aminer论文文件所在的路径。
 
-作业二
+---
+
+**作业二**
 
 1. 从Aminer的数据表格中筛选出同一个作者ID（uniqueID）下面同样被包含在scientist_pub.csv中的论文数据；
-   提示：使用论文doi号、期刊、title、发表年份等信息；stringr包中str_to_upper函数可以将字符转化成大写字符；使用str_extract(filename,"0_[0-9+]")可以从文件名中提炼出uniqueID，uniqueID是连接两张表的变量。
+   - 提示：使用论文doi号、期刊、title、发表年份等信息；stringr包中str_to_upper函数可以将字符转化成大写字符；使用str_extract(filename,"0_[0-9+]")可以从文件名中提炼出uniqueID，uniqueID是连接两张表的变量。
 
 2. 计算每一个作者ID的精准度和查全率；
-   提示：精准度定义为预测数据集（aminer）中预测准确的数据（即同样包含在scientist_pub表中）所占比重；查全率的定义为标准数据集（scientist_pub）中被预测准确的数据（即同样包含在aminer表中）所占比重
+   - 提示：精准度定义为预测数据集（aminer）中预测准确的数据（即同样包含在scientist_pub表中）所占比重；查全率的定义为标准数据集（scientist_pub）中被预测准确的数据（即同样包含在aminer表中）所占比重
 
 3. 计算aminer数据库的平均精准度和查全率
