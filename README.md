@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/wmyKvGb0)
 # 科技论文数据库作者识别号的适用性
 
 科技论文数据库的发展与成熟推动了科学经济学从理论探讨走向实证分析。诸多基础问题需要以科学家个体为研究单位，需要使用科学家个人的论文发表作为因变量。这首先需要解决科技论文作者姓名消岐问题，即如何从论文数据库中识别出对应科学家的论文。
